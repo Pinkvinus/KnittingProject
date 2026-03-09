@@ -1,0 +1,28 @@
+<div class="topbar">
+
+  <span class="logo">
+    <img ngSrc="../public/favicon.ico" height="41" width="67" alt="Placeholder logo">
+  </span>
+
+
+  <span class="projName">
+    <!-- TODO: When edited, save new project name -->
+    <p>
+      @if (isEditable) {
+        <input
+          type="text"
+          #nameInput
+          [value]="projectName"
+          (blur)="doneEditing(nameInput.value)"
+          (keydown)="onKeyPress($event, nameInput.value)"
+          autofocus
+          />
+      } @else {
+        <label (click)="startEditing()">
+          <b style="cursor: text">{{ projectName }}</b>
+        </label>
+      }
+    </p>
+  </span>
+</div>
+
