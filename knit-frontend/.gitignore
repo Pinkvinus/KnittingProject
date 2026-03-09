@@ -72,5 +72,5 @@ typings/
 # e2e
 e2e/*.js
 e2e/*.map
-.vscode/
+/.vscode
 # End of https://www.toptal.com/developers/gitignore/api/angular
