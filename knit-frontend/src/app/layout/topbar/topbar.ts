@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {NgOptimizedImage} from '@angular/common';
+import {Dropdown, DropdownValue} from '../buttons/dropdown/dropdown';
 
 @Component({
   selector: 'app-topbar',
-  imports: [FormsModule, NgOptimizedImage],
+  imports: [FormsModule, NgOptimizedImage, Dropdown],
   inputs: ['projectName'],
   templateUrl: './topbar.html',
   styleUrl: './topbar.css',
