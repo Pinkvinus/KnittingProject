@@ -1,5 +1,4 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
-import {KeyValuePipe} from '@angular/common';
 
 // Adapted from: https://stackoverflow.com/a/34736563
 
@@ -17,9 +16,7 @@ export class DropdownValue {
   selector: 'dropdown',
   templateUrl: 'dropdown.html',
   styleUrl: 'dropdown.css',
-  imports: [
-    KeyValuePipe
-  ]
+  imports: []
 })
 export class Dropdown {
   @Input() values: DropdownValue[] = [];
