@@ -29,6 +29,10 @@ export class Dropdown {
     this.isOpen = this.isOpen === key ? null : key;
   }
 
+  toggleBlur() {
+    this.isOpen = null;
+  }
+
   selectItem(value: DropdownValue) {
     this.selected = value;
     this.isOpen = null;
