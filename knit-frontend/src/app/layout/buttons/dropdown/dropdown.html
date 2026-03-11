@@ -1,22 +1,22 @@
-<div class="dropdown">
-  @for (dropdown of dropdownMenus; track dropdown[0]) {
-    <button class="dropdown-button"
-            (click)="toggle(dropdown[0])"
-            (blur)="toggleBlur()">
-      {{dropdown[0]}} ▾
-    </button>
-    @if (isOpen == dropdown[0]) {
-      <div class="dropdown-menu">
-        @for (value of dropdown[1]; track value.value) {
-          @if (value.label == "divider") {
-            <div class="divider"></div>
-          } @else {
-            <div class="dropdown-item" (click)="selectItem(value)">
-              {{ (value.label) }}
-            </div>
+ @for (dropdown of dropdownMenus; track dropdown[0]) {
+   <div class="dropdown">
+      <button class="dropdown-button"
+              (click)="toggle(dropdown[0])"
+              (blur)="toggleBlur()">
+        {{dropdown[0]}} ▾
+      </button>
+      @if (isOpen == dropdown[0]) {
+        <div class="dropdown-menu">
+          @for (value of dropdown[1]; track value.value) {
+            @if (value.label == "divider") {
+              <div class="divider"></div>
+            } @else {
+              <div class="dropdown-item" (click)="selectItem(value)">
+                {{ (value.label) }}
+              </div>
+            }
           }
-        }
-      </div>
-    }
+        </div>
+      }
+   </div>
   }
-</div>
