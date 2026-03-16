@@ -1,0 +1,44 @@
+/** TODO: Consider a colour palette file
+     for reference and consistency **/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background: rgb(255, 218, 230);
+  border: 1px solid rgba(255, 100, 150, 0.55);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.dropdown-button:focus {
+  background: #ffc3d8;
+}
+
+/** TODO: Make dropdown menu start from button **/
+.dropdown-menu {
+  position: absolute;
+  background: rgb(255, 234, 239);
+  border: 1px solid rgba(255, 100, 150, 0.55);
+  z-index: 100;
+  width: max-content !important;
+}
+
+.dropdown-item {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #ff6496;
+}
+
+.divider {
+  height: 1px;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin: 5px 0;
+  background: rgba(255, 100, 150, 0.55);
+}
