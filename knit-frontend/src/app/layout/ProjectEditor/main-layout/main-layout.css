@@ -8,4 +8,11 @@
   flex: 1 ;
   display: flex;
   overflow: hidden;
+  width: 100%;
 }
+
+
+.workspace app-maincontent {
+  flex: 1;
+}
+
