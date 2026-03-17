@@ -1,5 +1,7 @@
 .sidebar {
-  background-color: #1e293b;
+  background-color: #995559;
   color: white;
+  flex-shrink: 0;
   padding: 10px;
+  height: 100%;
 }

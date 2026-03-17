@@ -1,5 +1,18 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .workspace {
-  flex: 1;
+  flex: 1 ;
   display: flex;
   overflow: hidden;
+  width: 100%;
 }
+
+
+.workspace app-maincontent {
+  flex: 1;
+}
+
