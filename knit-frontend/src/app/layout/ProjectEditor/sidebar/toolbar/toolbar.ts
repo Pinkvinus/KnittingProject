@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Toolbutton } from './toolbutton/toolbutton';
+import { Toolbutton } from '../../buttons/toolbutton/toolbutton';
 
 @Component({
   selector: 'app-toolbar',
