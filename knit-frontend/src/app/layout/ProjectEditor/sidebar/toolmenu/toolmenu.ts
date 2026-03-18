@@ -1,9 +1,10 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Yarnmenu } from './yarnmenu/yarnmenu'; 
 
 @Component({
   selector: 'app-toolmenu',
-  imports: [CommonModule],
+  imports: [CommonModule, Yarnmenu],
   templateUrl: './toolmenu.html',
   styleUrl: './toolmenu.css',
 })
