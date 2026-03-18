@@ -4,3 +4,35 @@
     width: 200px;
     padding: 10px;
 }
+
+.toolmenu-section {
+    margin-bottom: 20px;
+}
+
+.toolmenu-section h3 {
+    margin: 0 0 10px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.toolmenu-button {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    margin-bottom: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: left;
+}
+
+.toolmenu-button:hover {
+    background-color: #e0e0e0;
+}
+
+.toolmenu-button:active {
+    background-color: #d0d0d0;
+}
