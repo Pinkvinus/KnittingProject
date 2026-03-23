@@ -19,7 +19,6 @@ export class Sidebar {
 
   onOptionSelected(option: string) {
     this.selectedOption = option;
-    console.log(`Selected tool: ${this.selectedTool}, option: ${option}`);
     // Here you can add logic to apply the selected option
   }
 }
