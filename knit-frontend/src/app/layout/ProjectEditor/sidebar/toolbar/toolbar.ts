@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { Toolbutton } from '../../buttons/toolbutton/toolbutton';
 
 @Component({
@@ -9,8 +9,15 @@ import { Toolbutton } from '../../buttons/toolbutton/toolbutton';
 })
 export class Toolbar {
   selectedTool: string | null = null;
+  @Output() toolSelected = new EventEmitter<string | null>();
 
   onToolClick(tool: string) {
-    this.selectedTool = tool;
+    if (this.selectedTool === tool) {
+      this.selectedTool = null; // Deselect if the same tool is clicked again
+      this.toolSelected.emit(null);
+    } else {
+      this.selectedTool = tool; // Select the new tool
+      this.toolSelected.emit(tool);
+    }
   }
 }

@@ -1,3 +1,4 @@
 <aside class="sidebar">
-  <app-toolbar></app-toolbar>
+  <app-toolbar (toolSelected)="onToolSelected($event)"></app-toolbar>
+  <app-toolmenu [selectedTool]="selectedTool" (optionSelected)="onOptionSelected($event)"></app-toolmenu>
 </aside>
