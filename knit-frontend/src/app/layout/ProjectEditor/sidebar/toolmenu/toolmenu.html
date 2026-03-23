@@ -1,4 +1,4 @@
-<div class="toolmenu" *ngIf="selectedTool">
+<div class="toolmenu">
     @switch (selectedTool) {
         @case ('Presets') {
             <div class="toolmenu-section">
@@ -10,13 +10,7 @@
             </div>
         }
         @case ('2D shapes') {
-            <div class="toolmenu-section">
-                <h3>2D Shapes</h3>
-                <button class="toolmenu-button" (click)="onOptionClick('Circle')">Circle</button>
-                <button class="toolmenu-button" (click)="onOptionClick('Square')">Square</button>
-                <button class="toolmenu-button" (click)="onOptionClick('Rectangle')">Rectangle</button>
-                <button class="toolmenu-button" (click)="onOptionClick('Triangle')">Triangle</button>
-            </div>
+            <app-shapemenu></app-shapemenu>
         }
         @case ('3D shapes') {
             <div class="toolmenu-section">
