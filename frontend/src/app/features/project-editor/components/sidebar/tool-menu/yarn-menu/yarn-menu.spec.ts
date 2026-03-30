@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Yarnmenu } from './yarn-menu';
+import { YarnMenu } from './yarn-menu';
 
-describe('Yarnmenu', () => {
-  let component: Yarnmenu;
-  let fixture: ComponentFixture<Yarnmenu>;
+describe('YarnMenu', () => {
+  let component: YarnMenu;
+  let fixture: ComponentFixture<YarnMenu>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Yarnmenu]
+      imports: [YarnMenu]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Yarnmenu);
+    fixture = TestBed.createComponent(YarnMenu);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './yarn-menu.html',
   styleUrl: './yarn-menu.css',
 })
-export class Yarnmenu {
+export class YarnMenu {
 
 }
