@@ -1,3 +1,18 @@
+:root {
+  --bg: #ffffff;
+  --surface: #4CAF50;
+  --secondary-color: #f44336;
+  --text-color: #333;
+  --muted: #888;
+  
+/* ── Fonts ─────────────────────────────────────────────────────────────── */
+  --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+/* ── Radius ─────────────────────────────────────────────────────────────── */
+  --radius: 4px;
+  
+}
+
 body {
   margin: 0;
 }
