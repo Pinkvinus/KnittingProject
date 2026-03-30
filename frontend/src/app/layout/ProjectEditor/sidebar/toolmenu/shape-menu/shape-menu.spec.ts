@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Shapemenu } from './shapemenu';
+import { ShapeMenu } from './shape-menu';
 
-describe('Shapemenu', () => {
-  let component: Shapemenu;
-  let fixture: ComponentFixture<Shapemenu>;
+describe('ShapeMenu', () => {
+  let component: ShapeMenu;
+  let fixture: ComponentFixture<ShapeMenu>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Shapemenu]
+      imports: [ShapeMenu]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Shapemenu);
+    fixture = TestBed.createComponent(ShapeMenu);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

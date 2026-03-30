@@ -1,12 +1,12 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Yarnmenu } from './yarnmenu/yarnmenu'; 
-import { Shapemenu } from './shapemenu/shapemenu';
+import { ShapeMenu } from './shape-menu/shape-menu';
 
 @Component({
   selector: 'app-toolmenu',
-  imports: [CommonModule, Yarnmenu, Shapemenu],
-  templateUrl: './toolmenu.html',
+  imports: [CommonModule, Yarnmenu, ShapeMenu],
+  templateUrl: './toolmenu.html', 
   styleUrl: './toolmenu.css',
 })
 export class Toolmenu {
