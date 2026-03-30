@@ -1,5 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-import { Toolbutton } from '../../buttons/toolbutton/toolbutton';
+import { Toolbutton } from '../../../../../shared/components/buttons/toolbutton/toolbutton';
 
 @Component({
   selector: 'app-toolbar',

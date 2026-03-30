@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { Sidebar } from '../sidebar/sidebar';
-import { Topbar } from '../topbar/topbar';
+import { Sidebar } from '../../components/sidebar/sidebar';
+import { Topbar } from '../../components/topbar/topbar';
 import { Maincontent } from '../main-content/main-content'; 
 
 @Component({

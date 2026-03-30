@@ -1,7 +1,7 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 import {NgOptimizedImage} from '@angular/common';
-import {Dropdown, DropdownValue} from '../buttons/dropdown/dropdown';
+import {Dropdown, DropdownValue} from '../../../../shared/components/buttons/dropdown/dropdown';
 
 @Component({
   selector: 'app-topbar',
