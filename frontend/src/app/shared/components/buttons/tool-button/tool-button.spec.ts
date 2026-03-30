@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Toolbutton } from './toolbutton';
+import { ToolButton } from './tool-button';
 
-describe('Toolbutton', () => {
-  let component: Toolbutton;
-  let fixture: ComponentFixture<Toolbutton>;
+describe('ToolButton', () => {
+  let component: ToolButton;
+  let fixture: ComponentFixture<ToolButton>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Toolbutton]
+      imports: [ToolButton]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Toolbutton);
+    fixture = TestBed.createComponent(ToolButton);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

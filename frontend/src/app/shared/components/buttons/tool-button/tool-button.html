@@ -1,4 +1,4 @@
-<button class="toolbutton" [class.selected]="selected" (click)="clicked.emit()">
+<button class="tool-button" [class.selected]="selected" (click)="clicked.emit()">
   <img [src]="icon" [alt]="alt ?? ''" class="icon" />
   <span class="label"><ng-content></ng-content></span>
 </button>

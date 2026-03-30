@@ -2,12 +2,12 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-toolbutton',
+  selector: 'app-tool-button',
   imports: [CommonModule],
-  templateUrl: './toolbutton.html',
-  styleUrl: './toolbutton.css',
+  templateUrl: './tool-button.html',
+  styleUrl: './tool-button.css',
 })
-export class Toolbutton {
+export class ToolButton {
   @Input() icon?: string;
   @Input() alt?: string;
   @Input() selected = false;

@@ -1,9 +1,9 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-import { Toolbutton } from '../../../../../shared/components/buttons/toolbutton/toolbutton';
+import { ToolButton } from '../../../../../shared/components/buttons/tool-button/tool-button';
 
 @Component({
   selector: 'app-toolbar',
-  imports: [Toolbutton],
+  imports: [ToolButton],
   templateUrl: './toolbar.html',
   styleUrl: './toolbar.css',
 })
