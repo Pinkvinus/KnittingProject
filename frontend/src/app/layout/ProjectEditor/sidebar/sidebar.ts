@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { Toolbar } from './toolbar/toolbar';
-import { Toolmenu } from './toolmenu/toolmenu';
+import { ToolMenu } from './tool-menu/tool-menu';
 
 @Component({
   selector: 'app-sidebar',
-  imports: [Toolbar, Toolmenu],
+  imports: [Toolbar, ToolMenu],
   templateUrl: './sidebar.html',
   styleUrl: './sidebar.css',
 })

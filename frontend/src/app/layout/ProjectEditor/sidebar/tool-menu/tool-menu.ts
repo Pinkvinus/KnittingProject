@@ -4,12 +4,12 @@ import { Yarnmenu } from './yarn-menu/yarn-menu';
 import { ShapeMenu } from './shape-menu/shape-menu';
 
 @Component({
-  selector: 'app-toolmenu',
+  selector: 'app-tool-menu',
   imports: [CommonModule, Yarnmenu, ShapeMenu],
-  templateUrl: './toolmenu.html', 
-  styleUrl: './toolmenu.css',
+  templateUrl: './tool-menu.html', 
+  styleUrl: './tool-menu.css',
 })
-export class Toolmenu {
+export class ToolMenu {
   @Input() selectedTool: string | null = null;
   @Output() optionSelected = new EventEmitter<string>();
 

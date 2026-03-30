@@ -1,0 +1,33 @@
+<div class="tool-menu">
+    @switch (selectedTool) {
+        @case ('Presets') {
+            <div class="tool-menu-section">
+                <h3>Presets</h3>
+                <button class="tool-menu-button" (click)="onOptionClick('Basic Sweater')">Basic Sweater</button>
+                <button class="tool-menu-button" (click)="onOptionClick('Hat')">Hat</button>
+                <button class="tool-menu-button" (click)="onOptionClick('Scarf')">Scarf</button>
+                <button class="tool-menu-button" (click)="onOptionClick('Blanket')">Blanket</button>
+            </div>
+        }
+        @case ('2D shapes') {
+            <app-shape-menu></app-shape-menu>
+        }
+        @case ('3D shapes') {
+            <div class="tool-menu-section">
+                <h3>3D Shapes</h3>
+                <button class="tool-menu-button" (click)="onOptionClick('Sphere')">Sphere</button>
+                <button class="tool-menu-button" (click)="onOptionClick('Cube')">Cube</button>
+                <button class="tool-menu-button" (click)="onOptionClick('Cylinder')">Cylinder</button>
+                <button class="tool-menu-button" (click)="onOptionClick('Cone')">Cone</button>
+            </div>
+        }
+        @case ('Yarns') {
+            <app-yarn-menu></app-yarn-menu>
+        }
+        @case ('Stitch Chart') {
+            <div class="tool-menu-section">
+                <h3>Stitch Types</h3>
+            </div>
+        }
+    }
+</div>

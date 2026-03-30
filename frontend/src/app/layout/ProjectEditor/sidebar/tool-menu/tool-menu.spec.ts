@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Toolmenu } from './toolmenu';
+import { ToolMenu } from './tool-menu';
 
-describe('Toolmenu', () => {
-  let component: Toolmenu;
-  let fixture: ComponentFixture<Toolmenu>;
+describe('ToolMenu', () => {
+  let component: ToolMenu;
+  let fixture: ComponentFixture<ToolMenu>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Toolmenu]
+      imports: [ToolMenu]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Toolmenu);
+    fixture = TestBed.createComponent(ToolMenu);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });
