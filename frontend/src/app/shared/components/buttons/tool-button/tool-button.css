@@ -1,5 +1,5 @@
 
-.toolbutton {
+.tool-button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,8 +17,8 @@
   height: 35px;
 }
 
-.toolbutton:hover .icon,
-.toolbutton.selected .icon {
+.tool-button:hover .icon,
+.tool-button.selected .icon {
   background-color: lightgray;
   border-radius: 10px;
 }
