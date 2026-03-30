@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Sidebar } from '../sidebar/sidebar';
 import { Topbar } from '../topbar/topbar';
-import { Maincontent } from '../maincontent/maincontent'; 
+import { Maincontent } from '../main-content/main-content'; 
 
 @Component({
   selector: 'app-main-layout',

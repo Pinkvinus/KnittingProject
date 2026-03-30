@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Maincontent } from './maincontent';
+import { Maincontent } from './main-content';
 
 describe('Maincontent', () => {
   let component: Maincontent;
