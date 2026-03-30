@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Yarnmenu } from './yarnmenu';
+import { Yarnmenu } from './yarn-menu';
 
 describe('Yarnmenu', () => {
   let component: Yarnmenu;

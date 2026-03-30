@@ -1,6 +1,6 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Yarnmenu } from './yarnmenu/yarnmenu'; 
+import { Yarnmenu } from './yarn-menu/yarn-menu'; 
 import { ShapeMenu } from './shape-menu/shape-menu';
 
 @Component({

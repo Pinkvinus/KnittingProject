@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-yarnmenu',
+  selector: 'app-yarn-menu',
   imports: [],
-  templateUrl: './yarnmenu.html',
-  styleUrl: './yarnmenu.css',
+  templateUrl: './yarn-menu.html',
+  styleUrl: './yarn-menu.css',
 })
 export class Yarnmenu {
 
