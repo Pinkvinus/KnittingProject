@@ -1,5 +1,15 @@
 # KnitFrontend
 
+## Containerisation
+
+This component of the KnittingProject is containerised using [Docker](https://docs.docker.com/). In order to build and run the frontend use:
+
+```bash
+docker build -t knit-frontend ./frontend
+docker run -p 8080:80 knit-frontend
+```
+
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
 
 ## Development server
